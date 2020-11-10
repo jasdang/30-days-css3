@@ -3,3 +3,22 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+.triangle {
+  background-color: red;
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  padding: auto;
+  color: white;
+  text-align: center;
+  clip-path: polygon(50% 0, 20% 100%, 80% 100%);
+}
+
+.triangle div {
+  line-height: 100px;
+}
+
+.triangle .mid {
+  border: solid 5px white;
+}
