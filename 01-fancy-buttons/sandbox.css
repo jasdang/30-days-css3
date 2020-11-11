@@ -80,3 +80,28 @@
   border-bottom: 0;
   border-bottom: 0;
 }
+
+.btn-3d-2 {
+  background-color: hsl(0, 100%, 50%);
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px hsl(0, 100%, 40%), 0 3px hsl(0, 100%, 35%),
+    0 4px hsl(0, 100%, 30%), 0 5px hsl(0, 100%, 25%), 0 6px hsl(0, 100%, 20%),
+    0 7px hsl(0, 100%, 15%);
+  outline: none;
+  color: white;
+  text-shadow: 0px -1px hsl(0, 100%, 15%);
+  font-size: larger;
+}
+
+.btn-3d-2:active {
+  top: 3px;
+  box-shadow: 0 2px hsl(0, 100%, 30%), 0 3px hsl(0, 100%, 25%),
+    0 4px hsl(0, 100%, 20%);
+}
+
+.btn-3d-2:hover {
+  background-color: hsl(0, 100%, 45%);
+}
