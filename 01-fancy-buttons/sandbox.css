@@ -140,3 +140,26 @@
   color: orangered;
   transition: all ease 0.3s;
 }
+
+/* ANIMATED-BUTTON-1 */
+.animated-button-1 {
+  background-color: teal;
+  padding: 10px 24px;
+  font-size: larger;
+  outline: none;
+  color: white;
+  background-image: url('pattern.png');
+}
+
+.animated-button-1:hover {
+  animation: move-to-right 10s linear infinite;
+}
+
+@keyframes move-to-right {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
