@@ -3,6 +3,8 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* 3D-BUTTON-1 */
 .btn-3d-1 {
   position: relative;
   background-color: red;
@@ -81,6 +83,7 @@
   border-bottom: 0;
 }
 
+/* 3D-BUTTON-2  */
 .btn-3d-2 {
   background-color: hsl(0, 100%, 50%);
   width: 100px;
@@ -104,4 +107,20 @@
 
 .btn-3d-2:hover {
   background-color: hsl(0, 100%, 45%);
+}
+
+/* GRADIENT-BUTTON-1 */
+
+.gradient-button-1 {
+  border: solid 10px orange;
+  padding: 10px 24px;
+  font-size: larger;
+  border-image: linear-gradient(to top right, orangered, yellow);
+  border-image-slice: 1;
+  color: orangered;
+}
+
+.gradient-button-1:hover {
+  border-image-slice: 1 fill;
+  color: white;
 }
