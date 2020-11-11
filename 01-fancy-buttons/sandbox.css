@@ -118,9 +118,25 @@
   border-image: linear-gradient(to top right, orangered, yellow);
   border-image-slice: 1;
   color: orangered;
+  outline: none;
+  transition: all ease 0.3s;
 }
 
-.gradient-button-1:hover {
+.gradient-button-1:hover,
+.gradient-button-2:hover {
   border-image-slice: 1 fill;
   color: white;
+}
+
+/* GRADIENT-BUTTON-2 */
+
+.gradient-button-2 {
+  border: solid 4px orangered;
+  padding: 10px 24px;
+  font-size: larger;
+  border-image: linear-gradient(to right, orangered, transparent);
+  border-image-slice: 1;
+  background-color: #e7eef1;
+  color: orangered;
+  transition: all ease 0.3s;
 }
