@@ -186,3 +186,39 @@
   color: white;
   margin-left: 10px;
 }
+
+/* TOOGLE BUTTON 1 */
+
+.toggle-1__input {
+  display: none;
+}
+
+.toggle-1__button {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 32px;
+  background-color: hotpink;
+}
+
+.toggle-1__button::before {
+  position: absolute;
+  content: 'OFF';
+  background-color: white;
+  top: 2px;
+  right: 2px;
+  transition: all ease 0.3s;
+}
+
+.toggle-1__button:hover {
+  cursor: pointer;
+}
+
+.toggle-1__input:checked + .toggle-1__button {
+  background-color: turquoise;
+}
+
+.toggle-1__input:checked + .toggle-1__button::before {
+  content: 'ON';
+  right: 52px;
+}
