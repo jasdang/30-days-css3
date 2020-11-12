@@ -163,3 +163,27 @@
     background-position: 100% 0;
   }
 }
+
+/* ANIMATED BUTTON 2 */
+.animated-button-2 {
+  position: relative;
+  background-color: teal;
+  box-sizing: border-box;
+  width: 262px;
+  padding: 10px;
+  font-size: large;
+  outline: none;
+  color: white;
+  transition: all ease 1s;
+}
+
+.animated-button-2:hover {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.animated-button-2:hover::after {
+  content: '»';
+  color: white;
+  margin-left: 10px;
+}
