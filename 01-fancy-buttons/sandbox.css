@@ -170,16 +170,15 @@
   background-color: teal;
   box-sizing: border-box;
   width: 262px;
-  padding: 10px;
+  padding: 20px 40px;
   font-size: large;
   outline: none;
   color: white;
-  transition: all ease 1s;
+  transition: all ease 0.3s;
 }
 
 .animated-button-2:hover {
-  padding-left: 10px;
-  text-align: left;
+  padding: 20px 60px 20px 20px;
 }
 
 .animated-button-2:hover::after {
