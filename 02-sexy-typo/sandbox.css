@@ -1,0 +1,11 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+.shadow-typo {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: rgb(32, 143, 132);
+  text-shadow: 3px 3px #e7eef1, 8px 8px rgba(0, 0, 0, 0.1);
+}
