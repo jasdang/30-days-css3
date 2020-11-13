@@ -188,6 +188,10 @@
 }
 
 /* TOOGLE BUTTON 1 */
+.toggle-1 {
+  display: inline-block;
+  vertical-align: top;
+}
 
 .toggle-1__input {
   display: none;
@@ -221,4 +225,48 @@
 .toggle-1__input:checked + .toggle-1__button::before {
   content: 'ON';
   right: 52px;
+}
+
+/* TOOGLE BUTTON 2 */
+
+.toggle-2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.toggle-2__input {
+  display: none;
+}
+
+.toggle-2__button::before {
+  position: absolute;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  content: '';
+  background-color: #cccccc;
+  left: 15px;
+  top: 9px;
+}
+
+.toggle-2__button {
+  margin-left: 5px;
+  background-color: whitesmoke;
+  padding: 5px 28px;
+  border: 1px solid #cccccc;
+  color: #cccccc;
+}
+
+.toggle-2__input:checked + .toggle-2__button {
+  background-color: turquoise;
+  color: white;
+}
+
+.toggle-2__input:checked + .toggle-2__button::before {
+  background-color: white;
+}
+
+.toggle-2__button:hover {
+  cursor: pointer;
 }
