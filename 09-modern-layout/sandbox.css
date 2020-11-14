@@ -1,0 +1,82 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+/* MODERN LAYOUT 1 */
+
+.layout1 article {
+  float: left;
+  width: 60%;
+}
+
+.layout1 aside {
+  float: right;
+  width: 38%;
+}
+
+.layout1 footer {
+  clear: both;
+}
+
+/* MODERN LAYOUT 2 */
+
+.layout2 header .logo {
+  float: left;
+  width: 20%;
+  margin: 0;
+}
+
+.layout2 header nav {
+  float: right;
+  width: 78%;
+  margin: 0;
+}
+
+.layout2 header {
+  display: table;
+  content: '';
+  width: 100%;
+  align-items: center;
+}
+
+.layout2 aside.sidenav {
+  float: left;
+  width: 20%;
+  margin-right: 2%;
+}
+
+.layout2 article {
+  float: left;
+  width: 46%;
+}
+
+.layout2 aside.sidebar {
+  float: right;
+  width: 30%;
+}
+
+.layout2 footer {
+  clear: both;
+}
+
+/* MODERN LAYOUT 3 */
+
+.layout3 header .logo {
+  float: right;
+  width: 20%;
+  margin: 0;
+}
+
+.layout3 header nav {
+  float: left;
+  width: 78%;
+  margin: 0;
+}
+
+.layout3 header {
+  display: table;
+  content: '';
+  width: 100%;
+}
