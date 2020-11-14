@@ -1,0 +1,31 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.image {
+  position: relative;
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image::after {
+  position: absolute;
+  display: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 200px;
+  padding: 10px 24px 10px 40px;
+  border: dashed 1px black;
+  content: '' attr(alt) ' Not Found';
+  background-color: whitesmoke;
+  background-image: url(noimage.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 12px 8px;
+}
