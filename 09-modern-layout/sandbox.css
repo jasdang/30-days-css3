@@ -80,3 +80,13 @@
   content: '';
   width: 100%;
 }
+
+.layout3 .articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout3 .articles article {
+  width: 32%;
+  margin: 0;
+}
